@@ -17,8 +17,8 @@ namespace Examination_System
         public char TypeOfQuest { get; set; }
         public uint ExamMarks { get; set; } = 0;
         public uint stdDegree { get; set; } = 0;
-        public static List<int> answers { get; set; }= new List<int>();
-        public static List<int> StdAnswers { get; set; }= new List<int>();
+        //public static List<int> answers { get; set; }= new List<int>();
+        //public static List<int> StdAnswers { get; set; }= new List<int>();
         public static List<Question> listOfQuests { get; set; } = new List<Question>();
 
 

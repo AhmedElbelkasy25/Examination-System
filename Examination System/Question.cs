@@ -36,11 +36,15 @@ namespace Examination_System
                 try
                 {
                     NumOfQuest = uint.Parse(Console.ReadLine());
-                   break;
+                    if (NumOfQuest == 0) {
+                        Console.WriteLine("The Number of Questions can't be Zero");
+                    }
+                    else { break; }
+                    
 
                 }
                 catch (Exception e) { Console.WriteLine(e.Message); ; }
-            } while (!true);
+            } while (true);
         }
         
 
